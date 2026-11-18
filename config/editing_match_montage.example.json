@@ -1,0 +1,19 @@
+{
+  "content": "match",
+  "format": "montage",
+  "prompt": "必须保留清单中的关键事件，按比赛顺序组织，保留进攻铺垫、判罚说明和必要承接，减少重复讨论。",
+  "count": 2,
+  "min_seconds": 300,
+  "target_seconds": 600,
+  "max_seconds": 900,
+  "event_before": 20,
+  "event_after": 40,
+  "anchors": [
+    {"period": "first", "match_time": "00:00", "video_time": "00:05:00", "video_end": "01:00:00"},
+    {"period": "second", "match_time": "45:00", "video_time": "01:00:00"}
+  ],
+  "events": [
+    {"period": "first", "match_time": "35:00", "label": "进球：需保留进攻和反应"},
+    {"period": "second", "match_time": "61:00", "label": "红牌：需保留判罚和后续反应"}
+  ]
+}

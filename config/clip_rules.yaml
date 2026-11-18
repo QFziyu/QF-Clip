@@ -1,0 +1,17 @@
+mode: hybrid
+# semantic: 只用转录语义；hybrid: 语义 + 声音提示；audio: 只用声音提示，不调用 LLM。
+window_seconds: 360
+overlap_seconds: 60
+max_window_chars: 18000
+context_before: 8
+context_after: 10
+min_seconds: 15
+max_seconds: 240
+dedup_iou: 0.65
+max_candidates: 60
+audio_events: true
+category_lengths:
+  goal_reaction: [15, 45]
+  humor: [20, 90]
+  tactical_analysis: [45, 180]
+  halftime_summary: [60, 240]

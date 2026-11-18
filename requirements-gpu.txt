@@ -1,0 +1,8 @@
+# Optional NVIDIA CUDA 12 runtime DLLs for Windows x64 / CTranslate2 4.8.2.
+# Install after base requirements: powershell -ExecutionPolicy Bypass -File scripts/setup.ps1 -Gpu
+# cuDNN matches CTranslate2's bundled cudnn64_9.dll (9.10.2.21).
+# These wheels do not install or upgrade the system NVIDIA display driver.
+nvidia-cudnn-cu12==9.10.2.21
+nvidia-cublas-cu12==12.9.1.4
+nvidia-cuda-runtime-cu12==12.9.79
+nvidia-cuda-nvrtc-cu12==12.9.86

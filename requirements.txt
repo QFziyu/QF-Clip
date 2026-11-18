@@ -1,0 +1,8 @@
+PyYAML>=6.0,<7
+numpy>=1.26,<3
+Pillow>=10,<14
+streamlit>=1.40,<2
+faster-whisper==1.2.1
+# faster-whisper 1.2.1 uses av.open(metadata_errors=...), removed in PyAV 19.
+# 16.1 provides wheels for Python 3.11-3.13 and is covered by the decoder smoke test.
+av==16.1.0

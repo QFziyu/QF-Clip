@@ -1,0 +1,2 @@
+# Uses the installed Microsoft Edge channel; no Chromium download required.
+playwright>=1.49,<2

@@ -1,0 +1,2 @@
+# Optional: bundled Haar detector, no face model download required.
+opencv-python-headless==4.13.0.92

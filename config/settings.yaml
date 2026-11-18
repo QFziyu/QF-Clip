@@ -1,0 +1,62 @@
+# 环境变量优先；所有相对路径以项目根目录为基准。
+output_dir: output
+cache_dir: cache
+database: output/factory.sqlite3
+ffmpeg: ffmpeg
+ffprobe: ffprobe
+asr:
+  engine: faster_whisper
+  local_url: http://127.0.0.1:8765
+  local_chunk_seconds: 60
+  local_timeout: 120
+  model: medium
+  device: cpu
+  compute_type: int8
+  language: zh
+  chunk_seconds: 300
+  overlap_seconds: 2
+  vad_filter: true
+  beam_size: 5
+openai:
+  base_url: https://api.openai.com/v1
+  model: ''
+  # 非流式兼容 API 可能在完成推理后才返回响应头；单位为秒。
+  timeout: 180
+  # 仅超时后将下一次等待上限翻倍；仍受 max_retries 和预算约束。
+  max_timeout: 600
+  max_retries: 2
+  max_calls: 80
+  budget_usd: 2.0
+  # 根据服务商实际单价调整；这是本地估算上限，不是服务商账单。
+  input_cost_per_million: 1.0
+  output_cost_per_million: 4.0
+  max_output_tokens: 3000
+  response_format: auto
+render:
+  encoder: auto
+  bitrate: 6M
+  preview_bitrate: 700k
+  horizontal: [1920, 1080]
+  vertical: [1080, 1920]
+  preview: [640, 360]
+  fps: 30
+  burn_subtitles: true
+subtitle:
+  # 网页可按项目保存颜色/样式；以下为新项目默认值。
+  # classic / gold / cyan / comic / boxed；显式字段覆盖预设字段。
+  preset: classic
+  font: Microsoft YaHei
+  font_size: 25.5
+  vertical_font_size: 25.5
+  offset_y_width_ratio: 0.05
+  outline: 3
+  shadow: 1
+  margin_v: 36
+  vertical_margin_v: 105
+  max_chars: 18
+subtitle_review:
+  # 自动字幕生成后进行文字校对；人工字幕跳过，失败保留原文。
+  enabled: false
+  chunk_cues: 48
+  max_chunk_chars: 3200
+  max_retries: 1

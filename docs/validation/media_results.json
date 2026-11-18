@@ -1,0 +1,128 @@
+{
+  "success": true,
+  "scope": "Generated footage + supplied transcript + mock LLM selection; real FFmpeg rendering/decoding. No real broadcast/ASR/API claim.",
+  "modes": 6,
+  "videos": 12,
+  "exports": [
+    {
+      "mode": "single-shorts",
+      "orientation": "horizontal",
+      "duration": 3.2,
+      "width": 320,
+      "height": 180,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "single-shorts",
+      "orientation": "vertical",
+      "duration": 3.2,
+      "width": 180,
+      "height": 320,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "single-continuous",
+      "orientation": "horizontal",
+      "duration": 6.2,
+      "width": 320,
+      "height": 180,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "single-continuous",
+      "orientation": "vertical",
+      "duration": 6.2,
+      "width": 180,
+      "height": 320,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "single-montage",
+      "orientation": "horizontal",
+      "duration": 6.2,
+      "width": 320,
+      "height": 180,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "single-montage",
+      "orientation": "vertical",
+      "duration": 6.2,
+      "width": 180,
+      "height": 320,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "sequence-full",
+      "orientation": "horizontal",
+      "duration": 42.2,
+      "width": 320,
+      "height": 180,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "sequence-full",
+      "orientation": "vertical",
+      "duration": 42.2,
+      "width": 180,
+      "height": 320,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "dual-full",
+      "orientation": "horizontal",
+      "duration": 19.2,
+      "width": 320,
+      "height": 180,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "dual-full",
+      "orientation": "vertical",
+      "duration": 19.2,
+      "width": 180,
+      "height": 320,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "dual-shorts",
+      "orientation": "horizontal",
+      "duration": 3.2,
+      "width": 320,
+      "height": 180,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    },
+    {
+      "mode": "dual-shorts",
+      "orientation": "vertical",
+      "duration": 3.2,
+      "width": 180,
+      "height": 320,
+      "decoded": true,
+      "manual_captions": true,
+      "intro": true
+    }
+  ]
+}

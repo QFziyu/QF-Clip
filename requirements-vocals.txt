@@ -1,0 +1,5 @@
+# Optional AI background separation. Torch/torchaudio must be a matching pair.
+# CPU works; a CUDA-enabled PyTorch build is required for GPU separation.
+torch==2.8.0
+torchaudio==2.8.0
+demucs==4.0.1

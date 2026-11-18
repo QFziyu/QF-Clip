@@ -1,0 +1,38 @@
+{
+  "tests_run": 439,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_cancel_reports_already_submitted_exports_honestly (test_production_automation.CoordinatorTests.test_cancel_reports_already_submitted_exports_honestly)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    },
+    {
+      "test": "test_cancel_stops_pipeline_before_import (test_production_automation.CoordinatorTests.test_cancel_stops_pipeline_before_import)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    },
+    {
+      "test": "test_end_to_end_waits_for_human_then_tracks_output (test_production_automation.CoordinatorTests.test_end_to_end_waits_for_human_then_tracks_output)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    },
+    {
+      "test": "test_network_retry_is_bounded_and_recovers_without_duplicate_children (test_production_automation.CoordinatorTests.test_network_retry_is_bounded_and_recovers_without_duplicate_children)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    },
+    {
+      "test": "test_response_lost_restart_reconciles_same_child_operation (test_production_automation.CoordinatorTests.test_response_lost_restart_reconciles_same_child_operation)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    },
+    {
+      "test": "test_source_template_freezing_and_request_deduplication (test_production_automation.CoordinatorTests.test_source_template_freezing_and_request_deduplication)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    },
+    {
+      "test": "test_source_validation_strips_page_secrets_and_rejects_unsupported (test_production_automation.CoordinatorTests.test_source_validation_strips_page_secrets_and_rejects_unsupported)",
+      "reason": "Optional sibling FootballWorkflow is not installed"
+    }
+  ],
+  "success": true,
+  "elapsed_seconds": 197.62,
+  "scope": "Unit tests, mocked API/ASR, synthetic FFmpeg integration, Streamlit AppTest. Not real broadcast/API validation."
+}

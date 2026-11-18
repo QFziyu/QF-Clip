@@ -1,0 +1,74 @@
+# Operator configuration and credentials
+.env*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+config/*.local.yaml
+config/*.local.yml
+
+# Python environments and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Runtime data (storage/*.py is APPLICATION SOURCE and must be committed)
+/storage/codex_official/
+/runtime-cpu/
+/runtime/
+/cache/*
+/input/*
+/output/*
+!/cache/.gitkeep
+!/input/.gitkeep
+!/output/.gitkeep
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+connection.json
+
+# Media and downloaded model weights
+*.mp4
+*.mkv
+*.flv
+*.mov
+*.webm
+*.ts
+*.wav
+*.mp3
+*.m4a
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.zip
+
+# Local editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal login/session exports
+auth.json
+credentials.json
+cookies.json
+cookies.txt
+*.p12
+*.pfx
+
+# Bundled Windows runtime belongs only in the client distribution
+/.runtime/
